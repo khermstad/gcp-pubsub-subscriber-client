@@ -1,4 +1,4 @@
-package com.khermstad.gcppubsubsubscriberclient.config.constant;
+package com.khermstad.gcppubsubsubscriberclient.constant;
 
 public class ConfigConstant {
     final public static String GCP_PUBSUB_SUBSCRIPTION_NAME = "${spring.cloud.gcp.pubsub.subscription.name}"; 

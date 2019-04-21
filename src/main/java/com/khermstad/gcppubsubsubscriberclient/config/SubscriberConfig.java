@@ -11,8 +11,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.integration.channel.DirectChannel;
 import org.springframework.messaging.MessageChannel;
 
-import static com.khermstad.gcppubsubsubscriberclient.config.constant.ConfigConstant.GCP_PUBSUB_SUBSCRIPTION_NAME;
-import static com.khermstad.gcppubsubsubscriberclient.config.constant.ConfigConstant.SPRING_PUBSUB_INPUT_CHANNEL;
+import static com.khermstad.gcppubsubsubscriberclient.constant.ConfigConstant.GCP_PUBSUB_SUBSCRIPTION_NAME;
+import static com.khermstad.gcppubsubsubscriberclient.constant.ConfigConstant.SPRING_PUBSUB_INPUT_CHANNEL;
 
 @Configuration
 @Slf4j
