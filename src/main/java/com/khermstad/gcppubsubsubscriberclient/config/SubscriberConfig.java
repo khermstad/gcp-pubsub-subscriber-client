@@ -18,7 +18,6 @@ import static com.khermstad.gcppubsubsubscriberclient.constant.ConfigConstant.SP
 @Slf4j
 public class SubscriberConfig {
     
-    
     @Value(GCP_PUBSUB_SUBSCRIPTION_NAME)
     String subscriptionName;
     
