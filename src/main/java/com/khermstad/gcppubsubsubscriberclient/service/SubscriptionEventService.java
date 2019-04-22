@@ -13,7 +13,6 @@ public class SubscriptionEventService {
     private SubscriptionEventRepository subscriptionEventRepository;
     private IncomingMessageLogUtil incomingMessageLogUtil;
 
-
     public SubscriptionEventService(SubscriptionEventRepository subscriptionEventRepository, IncomingMessageLogUtil incomingMessageLogUtil){
         this.subscriptionEventRepository = subscriptionEventRepository;
         this.incomingMessageLogUtil = incomingMessageLogUtil;
@@ -23,5 +22,4 @@ public class SubscriptionEventService {
         log.info(incomingMessageLogUtil.subscriptionEvent(subscriptionEvent));
         return subscriptionEventRepository.saveAndFlush(subscriptionEvent);
     }
-
 }

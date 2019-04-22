@@ -35,5 +35,4 @@ public class SubscriptionMessageHandler {
     public MessageHandler messageReceiver() {
         return this::handleIncomingMessage;
     }
-    
 }
